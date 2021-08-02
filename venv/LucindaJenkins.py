@@ -2,14 +2,7 @@
 
 import os
 
-# class getData():
-#     def get_parameters_from_jenkins(self,parameters_name):
-#         return os.getenv(parameters_name)
-
-# data=getData()
-# num1=data.get_parameters_from_jenkins("num1")
-# num2=data.get_parameters_from_jenkins("num2")
-
+# Get numbers from Jenkins
 num1=os.getenv("num1")
 num2=os.getenv("num2")
 
